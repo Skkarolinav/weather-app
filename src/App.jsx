@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import './App.css';
+import React, { Component } from 'react';
+
 import Search from './components/search/Search'
 import Result from './components/result/Result'
 
@@ -60,21 +60,12 @@ class App extends Component{
 
   render(){
     return (
-    
-        <div className='container'>
-          <div className='mycontainer'>
-              <Search 
-                value={this.state.value} 
-                handleInputChange={this.handleInputChange}
-                handleCitySubmit={this.handleCitySubmit}
-              />
-          </div>
-
-            <Result 
-              weather={this.state}
-            />
+      <div className='container'>
+        <div className='mycontainer'>
+          <Search value={this.state.value} handleInputChange={this.handleInputChange} handleCitySubmit={this.handleCitySubmit}/>
         </div>
-    
+        <Result weather={this.state}/>
+      </div>
     )
   }
 }

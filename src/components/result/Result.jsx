@@ -32,7 +32,7 @@ const Result = (props) => {
         <>
             {err ? `There is no such a city in the database: ${city}` : content}
         </>
-      )
+    )
 }
  
 export default Result;

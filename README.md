@@ -1,36 +1,39 @@
-<!-- PROJECT LOGO -->
+<!-- PROJECT HEADER -->
 <br />
-<p align="center">
-  <h3 align="center">Weather App</h3>
-  <p align="center">
+<p align='center'>
+  <h3 align='center' style='font-size: 32px'>Weather App</h3>
+  <p align='center'>
     Application showing actual weather in chosen city.
     <br />
     <br />
-    <a href="https://skkarolinav.github.io/weather-app/">View Live Demo</a>
+    <a href='https://skkarolinav.github.io/weather-app/' style='font-size: 20px'>View Live Demo</a>
   </p>
 </p>
 
+#
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-* [Usage](#usage)
 * [License](#license)
 * [Contact](#contact)
 
+#
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Version for PC
-![alt text](src/assets/sample/sample_weather_pc.png)
-Mobile version
-</br>
-![alt text](src/assets/sample/sample_weather_mobile.png)
+<div align='center'>
+  PC display
+  <img src='src/assets/sample/sample_weather_pc.png'>
+  <br />
+  Mobile display
+  <br />
+  <img src='src/assets/sample/sample_weather_mobile.png' width='200px'>
+</div>
 
-
-This projects was created using React.js.
+The project was created using React.js.
 
 Specified city is searched in the database and then results are fetched which are:
 * time and name of checked city
@@ -45,11 +48,13 @@ To create this application I used:
 * [Bootstrap](https://getbootstrap.com) 
 * [Weather Api](https://api.openweathermap.org)
 
+#
 <!-- GETTING STARTED -->
 ## Getting Started
 
 To run this application just write the name of the city.
 
+#
 <!-- LICENSE -->
 ## License
 Distributed under the MIT Licence.
@@ -58,7 +63,7 @@ Distributed under the MIT Licence.
 <!-- CONTACT -->
 ## Contact
 
-Name and Surname: Karolina Banasiewicz
+Name and Surname: <span style='color: green'> Karolina Banasiewicz </span>
 
 E-mail: skkarolinav@gmail.com
 
